@@ -1,0 +1,16 @@
+{
+  "name": "SuperScript Express Bot",
+  "description": "SuperScript chat bot easily deployed to Heroku",
+  "keywords": [
+    "bot",
+    "express",
+    "superscript",
+    "chatbot",
+    "node"
+  ],
+  "repository": "https://github.com/bmann/superscript-heroku",
+  "success_url": "/superscript?message=hi",
+  "addons": [
+    "mongolab"
+  ]
+}
