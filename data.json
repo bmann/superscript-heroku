@@ -1,0 +1,73 @@
+{
+    "topics": {
+        "random": {
+            "name": "random",
+            "flags": {
+                "keep": "keep"
+            },
+            "keywords": [],
+            "filter": null,
+            "gambits": [
+                "L3PhhiDv"
+            ]
+        }
+    },
+    "gambits": {
+        "L3PhhiDv": {
+            "trigger": {
+                "flags": {},
+                "filter": "^hasTag('hello')",
+                "question": false,
+                "raw": "*~2",
+                "clean": "\\s*((?:[^\\s]+\\s+){0,1}(?:[^\\s]+)?)\\s*"
+            },
+            "replies": [
+                "HHv7mP8n",
+                "cP4UGgvf",
+                "n8X5hhNK",
+                "BMOKMg29",
+                "ITrNZZiO",
+                "rNM52RoZ"
+            ],
+            "conditional": null,
+            "conversation": null,
+            "topic": "random"
+        }
+    },
+    "replies": {
+        "HHv7mP8n": {
+            "string": "Hi!",
+            "filter": null,
+            "keep": false
+        },
+        "cP4UGgvf": {
+            "string": "Hi, how are you?",
+            "filter": null,
+            "keep": false
+        },
+        "n8X5hhNK": {
+            "string": "How are you?",
+            "filter": null,
+            "keep": false
+        },
+        "BMOKMg29": {
+            "string": "Hello",
+            "filter": null,
+            "keep": false
+        },
+        "ITrNZZiO": {
+            "string": "Howdy",
+            "filter": null,
+            "keep": false
+        },
+        "rNM52RoZ": {
+            "string": "Ola",
+            "filter": null,
+            "keep": false
+        }
+    },
+    "checksums": {
+        "./chat/main.ss": "39cbc28aebe38e26c8cf1b42243f1d6beb6eccb6"
+    },
+    "version": 1
+}
