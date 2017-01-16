@@ -15,8 +15,8 @@
   ],
   "env": {
     "SLACK_TOKEN": {
-      "description": "Your Slack bot token",
-      "value": "Create a token by adding a bot at http://my.slack.com/apps/A0F7YS25R-bots"
+      "description": "Get a token at http://my.slack.com/apps/A0F7YS25R-bots",
+      "value": "Slack Bot Token"
     }
   }
 }
