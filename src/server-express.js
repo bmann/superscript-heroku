@@ -26,7 +26,7 @@ const options = {
   },
   importFile: './data.json',
   logPath: null,
-  mongoURI: process.env.MONGODB_URI || 'mongodb://localhost:5000/superscriptdb',  
+  mongoURI: process.env.MONGODB_URI || 'mongodb://localhost:5000/superscriptdb'  
 };
 
 superscript.setup(options, (err, botInstance) => {

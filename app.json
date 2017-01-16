@@ -12,5 +12,11 @@
   "success_url": "/superscript?message=hi",
   "addons": [
     "mongolab"
-  ]
+  ],
+  "env": {
+    "SLACK_TOKEN": {
+      "description": "Your Slack bot token",
+      "value": "Visit http://my.slack.com/apps/new/A0F7YS25R-bots to create your bot and get the token"
+    }
+  }
 }
