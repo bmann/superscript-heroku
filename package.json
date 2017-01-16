@@ -5,7 +5,7 @@
   "dependencies": {
     "superscript": "^1.0.0",
     "express": "4.x",
-    "body-parser": "1.x",
+    "body-parser": "1.x"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",
