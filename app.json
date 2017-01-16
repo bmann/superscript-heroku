@@ -6,17 +6,17 @@
     "express",
     "superscript",
     "chatbot",
-    "node"
+    "node",
+    "slack"
   ],
-  "repository": "https://github.com/bmann/superscript-heroku",
-  "success_url": "/superscript?message=hi",
+  "repository": "https://github.com/bmann/superscript-heroku/tree/slack-client",
   "addons": [
     "mongolab"
   ],
   "env": {
     "SLACK_TOKEN": {
       "description": "Your Slack bot token",
-      "generator": "Create a token by adding a bot at http://my.slack.com/apps/A0F7YS25R-bots"
+      "value": "Create a token by adding a bot at http://my.slack.com/apps/A0F7YS25R-bots"
     }
   }
 }
