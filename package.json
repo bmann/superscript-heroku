@@ -18,3 +18,42 @@
     "start": "node lib/server-express.js"
   }
 }
+===============
+{
+  "name": "joshua",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cleverbot.io": "^1.0.4",
+    "librelay": "^1.9.0"
+  }
+}
+=================
+
+{
+  "name": "relay-bot-heroku",
+  "version": "0.0.1",
+  "description": "Bot that converts heroku webhook events to a Forsta message",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "index.js",
+  "keywords": [
+    "forsta",
+    "relay"
+  ],
+  "dependencies": {
+    "express": "4.16.2",
+    "librelay": "1.2.5",
+    "uuid": "3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

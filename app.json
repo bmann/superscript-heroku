@@ -1,16 +1,18 @@
 {
-  "name": "SuperScript Express Bot",
-  "description": "SuperScript chat bot easily deployed to Heroku",
+  "name": "SuperScript Forsta Bot",
+  "description": "SuperScript-based Forstabot easily deployed to Heroku",
   "keywords": [
+    "Forsta",
     "bot",
     "express",
     "superscript",
     "chatbot",
     "node"
   ],
-  "repository": "https://github.com/bmann/superscript-heroku",
+  "repository": "https://github.com/forstalabs/securebot-heroku",
   "success_url": "/superscript?message=hi",
   "addons": [
-    "mongolab"
+    "mongolab",
+    "reddis"
   ]
 }
